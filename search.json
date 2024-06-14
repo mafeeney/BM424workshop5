@@ -1,38 +1,17 @@
 [
   {
-    "objectID": "workshop5/05workshop.html",
-    "href": "workshop5/05workshop.html",
-    "title": "",
-    "section": "",
-    "text": "Explanation of what the 3rd workshop will be about\nOverview of tasks:\n\ndata analysis, literature search\n\n\n\n\n\n\nTip\n\n\n\nLiterature search tips\n\n\npandemic response committee meeting\n\n\n\n\n\n\nTip\n\n\n\nYour decisions should be evidence-based\n\n\nsubmit committee decisions"
-  },
-  {
-    "objectID": "workshop5/05A.html",
-    "href": "workshop5/05A.html",
-    "title": "",
-    "section": "",
-    "text": "_includes"
-  },
-  {
-    "objectID": "workshop5/05A.html#initial-news-reports",
-    "href": "workshop5/05A.html#initial-news-reports",
-    "title": "",
-    "section": "",
-    "text": "_includes"
-  },
-  {
-    "objectID": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
-    "href": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
-    "title": "",
-    "section": "Emails and Responses from Concerned Citizens",
-    "text": "Emails and Responses from Concerned Citizens\n_includes"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "BM424 Clinical Microbiology workshops",
     "section": "",
     "text": "MAIN"
+  },
+  {
+    "objectID": "workshop5/05workshop.html",
+    "href": "workshop5/05workshop.html",
+    "title": "",
+    "section": "",
+    "text": "Explanation of what the 3rd workshop will be about\nOverview of tasks:\n\ndata analysis, literature search\n\n\n\n\n\n\nTip\n\n\n\nLiterature search tips\n\n\npandemic response committee meeting\n\n\n\n\n\n\nTip\n\n\n\nYour decisions should be evidence-based\n\n\nsubmit committee decisions"
   },
   {
     "objectID": "workshop5/05data.html",
@@ -68,5 +47,26 @@
     "title": "Workshop 3 - Data Analysis",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "workshop5/05A.html",
+    "href": "workshop5/05A.html",
+    "title": "",
+    "section": "",
+    "text": "_includes"
+  },
+  {
+    "objectID": "workshop5/05A.html#initial-news-reports",
+    "href": "workshop5/05A.html#initial-news-reports",
+    "title": "",
+    "section": "",
+    "text": "_includes"
+  },
+  {
+    "objectID": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
+    "href": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
+    "title": "",
+    "section": "Emails and Responses from Concerned Citizens",
+    "text": "Emails and Responses from Concerned Citizens\n_includes"
   }
 ]
