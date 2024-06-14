@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "workshop5/05workshop.html",
+    "href": "workshop5/05workshop.html",
+    "title": "",
+    "section": "",
+    "text": "Explanation of what the 3rd workshop will be about\nOverview of tasks:\n\ndata analysis, literature search\n\n\n\n\n\n\nTip\n\n\n\nLiterature search tips\n\n\npandemic response committee meeting\n\n\n\n\n\n\nTip\n\n\n\nYour decisions should be evidence-based\n\n\nsubmit committee decisions"
+  },
+  {
+    "objectID": "workshop5/05A.html",
+    "href": "workshop5/05A.html",
+    "title": "",
+    "section": "",
+    "text": "_includes"
+  },
+  {
+    "objectID": "workshop5/05A.html#initial-news-reports",
+    "href": "workshop5/05A.html#initial-news-reports",
+    "title": "",
+    "section": "",
+    "text": "_includes"
+  },
+  {
+    "objectID": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
+    "href": "workshop5/05A.html#emails-and-responses-from-concerned-citizens",
+    "title": "",
+    "section": "Emails and Responses from Concerned Citizens",
+    "text": "Emails and Responses from Concerned Citizens\n_includes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BM424 Clinical Microbiology workshops",
+    "section": "",
+    "text": "MAIN"
+  },
+  {
+    "objectID": "workshop5/05data.html",
+    "href": "workshop5/05data.html",
+    "title": "Workshop 3 - Data Analysis",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\n\nThis page provides a WebR cell for you to use as a tool and playground to analyse data from and about your city’s pandemic scenario.\n\n\n\n\n\n\nTip\n\n\n\nIf you are unfamiliar with R, or if this is your first time working with R, you may find some of the following resources helpful:\n\n\nThis WebR instance has three packages installed:\n\nggplot2\nGGally\ntidyverse\n\n\n\n\n\n\n\nTip\n\n\n\n\n\nPlease note that all of these data are available remotely through a cloud server and you can work with them using the webR instance in this browser window - you do not need to install R or download any files to your own computer. However, you do need to make sure you are working with the correct data. Please make sure you carefully check the filename(s) for your particular pandemic scenario.\n\n\n\n\n\n\n\n\n\n\n\n\nTask\n\n\n\nUse the WebR cell below to visualise your data with a basic plot.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nThe penguins dataset contains data about three different species of penguins. Take a look at the format of the dataset:\nglimpse(penguins)\nYou’ll see there are eight variables, including species, weight, sex, etc. - some of these variables are categorical (i.e. a category, like species), and others are continuous (i.e. numerical). You can see a visual overview of how the data is related using the plot() function:\nplot(penguins)\nWe can visualise the number of penguins of each species in a bar chart:\nfig &lt;- ggplot(penguins, aes(species, fill=species)) +\n         geom_bar()\nfig\nAnd break this down in a facet plot, by sex:\nfig &lt;- ggplot(penguins, aes(species, fill=species)) +\n         geom_bar() +\n         facet_wrap(~sex)\nfig\nWe can make a box and whisker plot of penguin body mass by species:\nfig &lt;- ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) +\n         geom_boxplot()\nfig\nAnd plot the body mass for each sex side-by-side\nfig &lt;- ggplot(penguins, aes(x=species, y=body_mass_g, fill=sex)) +\n         geom_boxplot()\nfig\nWe can investigate correlations, such as between body mass and flipper length:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm)) +\n         geom_point()\nfig\nWe can colour datapoints by species:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +\n         geom_point()\nfig\nAnd fit a linear regression to each species separately:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +\n         geom_point() +\n         geom_smooth(method=\"lm\")\nfig\n:::\n\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "workshop5/05data.html#introduction",
+    "href": "workshop5/05data.html#introduction",
+    "title": "Workshop 3 - Data Analysis",
+    "section": "",
+    "text": "This page provides a WebR cell for you to use as a tool and playground to analyse data from and about your city’s pandemic scenario.\n\n\n\n\n\n\nTip\n\n\n\nIf you are unfamiliar with R, or if this is your first time working with R, you may find some of the following resources helpful:\n\n\nThis WebR instance has three packages installed:\n\nggplot2\nGGally\ntidyverse\n\n\n\n\n\n\n\nTip\n\n\n\n\n\nPlease note that all of these data are available remotely through a cloud server and you can work with them using the webR instance in this browser window - you do not need to install R or download any files to your own computer. However, you do need to make sure you are working with the correct data. Please make sure you carefully check the filename(s) for your particular pandemic scenario."
+  },
+  {
+    "objectID": "workshop5/05data.html#city-data-analysis",
+    "href": "workshop5/05data.html#city-data-analysis",
+    "title": "Workshop 3 - Data Analysis",
+    "section": "",
+    "text": "Task\n\n\n\nUse the WebR cell below to visualise your data with a basic plot.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "workshop5/05data.html#investigate-palmers-penguins",
+    "href": "workshop5/05data.html#investigate-palmers-penguins",
+    "title": "Workshop 3 - Data Analysis",
+    "section": "",
+    "text": "The penguins dataset contains data about three different species of penguins. Take a look at the format of the dataset:\nglimpse(penguins)\nYou’ll see there are eight variables, including species, weight, sex, etc. - some of these variables are categorical (i.e. a category, like species), and others are continuous (i.e. numerical). You can see a visual overview of how the data is related using the plot() function:\nplot(penguins)\nWe can visualise the number of penguins of each species in a bar chart:\nfig &lt;- ggplot(penguins, aes(species, fill=species)) +\n         geom_bar()\nfig\nAnd break this down in a facet plot, by sex:\nfig &lt;- ggplot(penguins, aes(species, fill=species)) +\n         geom_bar() +\n         facet_wrap(~sex)\nfig\nWe can make a box and whisker plot of penguin body mass by species:\nfig &lt;- ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) +\n         geom_boxplot()\nfig\nAnd plot the body mass for each sex side-by-side\nfig &lt;- ggplot(penguins, aes(x=species, y=body_mass_g, fill=sex)) +\n         geom_boxplot()\nfig\nWe can investigate correlations, such as between body mass and flipper length:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm)) +\n         geom_point()\nfig\nWe can colour datapoints by species:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +\n         geom_point()\nfig\nAnd fit a linear regression to each species separately:\nfig &lt;- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +\n         geom_point() +\n         geom_smooth(method=\"lm\")\nfig\n:::"
+  },
+  {
+    "objectID": "workshop5/05data.html#webr-playground",
+    "href": "workshop5/05data.html#webr-playground",
+    "title": "Workshop 3 - Data Analysis",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page."
+  }
+]
